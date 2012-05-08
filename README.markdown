@@ -2,12 +2,16 @@
 
 PulseOximeter library is intended to greatly simplify the use of PulseOximeter device simulation with DDS. As such, PulseOximeter library have functions that reduces by several times the line of code that need to be written for a creating PulseOximeter Simulation DDS application. 
 
+# Prerequisite
+
+[Setting Up Logging Service](https://github.com/netspective/commons-logging-cpp/blob/master/README.md)
+
 # Compilation and Installation
 Clone the library from the github
 
-	git clone git@github.com:netspective/data-service-blood-pressure.git
+	git clone git@github.com:netspective/data-service-pulse-ox.git
 	
-	cd data-service-blood-pressure
+	cd data-service-pulse-ox
 
 Compiling
 	
@@ -36,7 +40,7 @@ SYNOPSIS
 
 DESCRIPTION
 
-	The publish function used to publish the Blood Pressure data in the DDS. 
+	The publish function used to publish the Pulse ox  data in the DDS. 
 
 ARGUMENTS
 
